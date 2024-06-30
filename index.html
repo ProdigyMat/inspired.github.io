@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap" rel="stylesheet">
+        <style>
+            h1 {color: 'white';
+            font-size: 48px
+        }
+            h1 {font-family: 'Titillium-Web', serif;
+            font-size: 95px;
+        }
+        </style>
+        <link href="discordInvite.css" rel="stylesheet">
+    </head>
+    <body background="pattern.png">
+        <center>
+            <h1>Inspired Menu</h1>
+            <div id="discordInviteBox"></div>
+        </center>
+        <script src="discordInvite.js"></script>
+<script>
+  discordInvite.init({
+  inviteCode: 'WhVPKzJ9mN',
+  title: 'Inspireds Mod Zone',
+});
+discordInvite.render();
+</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.39.2/css-doodle.min.js"></script>
+                <css-doodle click-to-update>
+                    <style>
+                      @grid: 1 / 100vw 100vh / #0a0c27;
+                      background-size: 200px 200px;
+                      background-image: @doodle(
+                        @grid: 6 / 100%;
+                        @size: 4px;
+                        font-size: 4px;
+                        color: hsl(@r240, 30%, 50%);
+                        box-shadow: @m3x5(
+                          calc(4em - @nx * 1em) calc(@ny * 1em)
+                            @p(@m3(currentColor), @m2(transparent)),
+                          calc(2em + @nx * 1em) calc(@ny * 1em)
+                            @lp
+                        );
+                      );
+                    </style>
+                  </css-doodle>
+    </body>
+    
+    
+</html>
